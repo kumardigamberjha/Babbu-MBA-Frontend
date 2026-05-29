@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mba101",
+    "title": "Management Principles and Organizational Behavior",
+    "icon": "building-2",
+    "modules": [
+      { "id": "m1", "title": "Fundamentals of Management" },
+      { "id": "m2", "title": "Evolution of Management Thought" },
+      { "id": "m3", "title": "Organizational Behavior Concepts" },
+      { "id": "m4", "title": "Motivation and Leadership Theories" },
+      { "id": "m5", "title": "Organizational Culture and Change" }
+    ]
+  },
+  {
+    "id": "mba102",
+    "title": "Managerial Economics",
+    "icon": "bar-chart-3",
+    "modules": [
+      { "id": "m1", "title": "Demand and Supply Analysis" },
+      { "id": "m2", "title": "Consumer Behavior" },
+      { "id": "m3", "title": "Production and Cost Analysis" },
+      { "id": "m4", "title": "Market Structures" },
+      { "id": "m5", "title": "Pricing Strategies" }
+    ]
+  },
+  {
+    "id": "mba103",
+    "title": "Financial Accounting",
+    "icon": "wallet",
+    "modules": [
+      { "id": "m1", "title": "Accounting Principles and Concepts" },
+      { "id": "m2", "title": "Preparation of Financial Statements" },
+      { "id": "m3", "title": "Analysis of Financial Statements" },
+      { "id": "m4", "title": "Ratio Analysis" },
+      { "id": "m5", "title": "Cash Flow Statements" }
+    ]
+  },
+  {
+    "id": "mba104",
+    "title": "Marketing Management",
+    "icon": "megaphone",
+    "modules": [
+      { "id": "m1", "title": "Marketing Concepts and Environment" },
+      { "id": "m2", "title": "Consumer Behavior" },
+      { "id": "m3", "title": "Segmentation, Targeting, Positioning" },
+      { "id": "m4", "title": "Marketing Mix (4Ps)" },
+      { "id": "m5", "title": "Digital Marketing Basics" }
+    ]
+  },
+  {
+    "id": "mba105",
+    "title": "Human Resource Management",
+    "icon": "users",
+    "modules": [
+      { "id": "m1", "title": "HRM Concepts and Functions" },
+      { "id": "m2", "title": "Recruitment and Selection" },
+      { "id": "m3", "title": "Training and Development" },
+      { "id": "m4", "title": "Performance Management" },
+      { "id": "m5", "title": "Compensation and Benefits" }
+    ]
+  },
+  {
+    "id": "mba106",
+    "title": "Operations Management",
+    "icon": "settings",
+    "modules": [
+      { "id": "m1", "title": "Introduction to Operations" },
+      { "id": "m2", "title": "Process Design and Analysis" },
+      { "id": "m3", "title": "Inventory Management" },
+      { "id": "m4", "title": "Supply Chain Management" },
+      { "id": "m5", "title": "Quality Management (TQM, Six Sigma)" }
+    ]
+  },
+  {
+    "id": "mba107",
+    "title": "Financial Management",
+    "icon": "trending-up",
+    "modules": [
+      { "id": "m1", "title": "Time Value of Money" },
+      { "id": "m2", "title": "Capital Budgeting" },
+      { "id": "m3", "title": "Cost of Capital" },
+      { "id": "m4", "title": "Working Capital Management" },
+      { "id": "m5", "title": "Risk and Return Analysis" }
+    ]
+  },
+  {
+    "id": "mba108",
+    "title": "Business Research Methods",
+    "icon": "search",
+    "modules": [
+      { "id": "m1", "title": "Research Design" },
+      { "id": "m2", "title": "Data Collection Methods" },
+      { "id": "m3", "title": "Sampling Techniques" },
+      { "id": "m4", "title": "Hypothesis Testing" },
+      { "id": "m5", "title": "Report Writing" }
+    ]
+  },
+  {
+    "id": "mba109",
+    "title": "Strategic Management",
+    "icon": "chess",
+    "modules": [
+      { "id": "m1", "title": "Strategy Formulation" },
+      { "id": "m2", "title": "SWOT and PESTLE Analysis" },
+      { "id": "m3", "title": "Competitive Strategies (Porter)" },
+      { "id": "m4", "title": "Strategy Implementation" },
+      { "id": "m5", "title": "Strategy Evaluation and Control" }
+    ]
+  },
+  {
+    "id": "mba110",
+    "title": "Business Ethics and Corporate Governance",
+    "icon": "scale",
+    "modules": [
+      { "id": "m1", "title": "Ethical Theories in Business" },
+      { "id": "m2", "title": "Corporate Social Responsibility" },
+      { "id": "m3", "title": "Corporate Governance Framework" },
+      { "id": "m4", "title": "Ethical Decision Making" },
+      { "id": "m5", "title": "Sustainability and ESG" }
+    ]
+  }
+]

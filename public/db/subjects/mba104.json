@@ -1,0 +1,267 @@
+{
+  "subject_id": "mba104",
+  "title": "Marketing Management",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Marketing Concepts and Environment",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Core Marketing Concepts",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand what marketing is",
+            "Differentiate needs, wants, and demand"
+          ],
+          "content": "## Core Marketing Concepts\nMarketing is the process of identifying, anticipating, and satisfying customer needs profitably.\n\n### Key Concepts\n- **Needs**: Basic human requirements\n- **Wants**: Needs shaped by culture\n- **Demand**: Wants backed by purchasing power\n\n### Exchange Process\nMarketing involves exchange where value is transferred between buyer and seller.\n\n### Value and Satisfaction\nCustomer satisfaction depends on perceived value versus expectations.\n\n### Example\nA customer buying a smartphone is not just buying a device but value like status, usability, and brand trust.",
+          "examples": [
+            "Buying a premium phone for brand value",
+            "Choosing a local product for affordability"
+          ],
+          "common_mistakes": [
+            "Confusing wants with needs",
+            "Ignoring customer perception of value"
+          ],
+          "qna": [
+            {
+              "q": "What is marketing?",
+              "a": "It is the process of satisfying customer needs profitably."
+            },
+            { "q": "What is a need?", "a": "A basic human requirement." },
+            {
+              "q": "Difference between wants and demand?",
+              "a": "Demand is wants backed by purchasing power."
+            },
+            {
+              "q": "What is value?",
+              "a": "Perceived benefit compared to cost."
+            },
+            {
+              "q": "Why is satisfaction important?",
+              "a": "It leads to customer retention."
+            }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Marketing Environment",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand internal and external factors affecting marketing",
+            "Analyze macro and micro environment"
+          ],
+          "content": "## Marketing Environment\nMarketing environment includes all factors that influence marketing decisions.\n\n### Micro Environment\n- Customers\n- Competitors\n- Suppliers\n\n### Macro Environment\n- Political\n- Economic\n- Social\n- Technological (PEST)\n\n### Importance\nUnderstanding environment helps firms adapt strategies.",
+          "examples": [
+            "Economic recession affecting demand",
+            "New technology disrupting markets"
+          ],
+          "common_mistakes": [
+            "Ignoring external factors",
+            "Overestimating internal control"
+          ],
+          "qna": [
+            {
+              "q": "What is marketing environment?",
+              "a": "Factors affecting marketing decisions."
+            },
+            {
+              "q": "What is micro environment?",
+              "a": "Internal and close external factors."
+            },
+            {
+              "q": "What is macro environment?",
+              "a": "Broad external forces like economy."
+            },
+            {
+              "q": "What is PEST?",
+              "a": "Political, Economic, Social, Technological."
+            },
+            { "q": "Why important?", "a": "Helps adapt to changes." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Consumer Behavior",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Consumer Decision Process",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["m1_t1"],
+          "learning_outcomes": [
+            "Understand buying process stages",
+            "Analyze decision behavior"
+          ],
+          "content": "## Consumer Decision Process\nConsumers go through stages before purchasing.\n\n### Stages\n1. Problem recognition\n2. Information search\n3. Evaluation of alternatives\n4. Purchase decision\n5. Post-purchase behavior\n\n### Importance\nHelps marketers influence decisions.",
+          "examples": [
+            "Comparing phones before buying",
+            "Reading reviews before purchase"
+          ],
+          "common_mistakes": [
+            "Ignoring post-purchase stage",
+            "Assuming rational decisions always"
+          ],
+          "qna": [
+            { "q": "What is first stage?", "a": "Problem recognition." },
+            {
+              "q": "What is evaluation stage?",
+              "a": "Comparing alternatives."
+            },
+            {
+              "q": "Why post-purchase important?",
+              "a": "Affects repeat buying."
+            },
+            {
+              "q": "What influences decisions?",
+              "a": "Social, psychological factors."
+            },
+            { "q": "Example?", "a": "Reading reviews before buying." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Segmentation, Targeting, Positioning",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Market Segmentation",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["m1_t1"],
+          "learning_outcomes": [
+            "Understand segmentation bases",
+            "Apply segmentation strategies"
+          ],
+          "content": "## Market Segmentation\nDividing market into groups with similar needs.\n\n### Bases\n- Demographic\n- Geographic\n- Psychographic\n- Behavioral\n\n### Importance\nAllows focused marketing.",
+          "examples": ["Luxury vs budget customers", "Urban vs rural markets"],
+          "common_mistakes": ["Over-segmentation", "Ignoring customer overlap"],
+          "qna": [
+            {
+              "q": "What is segmentation?",
+              "a": "Dividing market into groups."
+            },
+            {
+              "q": "Name types.",
+              "a": "Demographic, geographic, psychographic."
+            },
+            { "q": "Why important?", "a": "Better targeting." },
+            { "q": "Example?", "a": "Age-based segmentation." },
+            { "q": "Risk?", "a": "Too many segments." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Positioning",
+          "difficulty": "medium",
+          "estimated_time": "15 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand positioning strategies",
+            "Create positioning statements"
+          ],
+          "content": "## Positioning\nCreating a distinct image in consumer's mind.\n\n### Strategies\n- Price-based\n- Quality-based\n- Benefit-based\n\n### Example\nApple positions as premium brand.",
+          "examples": ["Luxury branding", "Affordable positioning"],
+          "common_mistakes": ["Unclear positioning", "Inconsistent messaging"],
+          "qna": [
+            { "q": "What is positioning?", "a": "Creating brand image." },
+            { "q": "Strategy?", "a": "Price or quality-based." },
+            { "q": "Example?", "a": "Apple premium." },
+            { "q": "Why important?", "a": "Differentiation." },
+            { "q": "Risk?", "a": "Confusion in messaging." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Marketing Mix (4Ps)",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Product Strategy",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand product levels",
+            "Analyze product lifecycle"
+          ],
+          "content": "## Product Strategy\nProduct is anything that satisfies a need.\n\n### Levels\n- Core\n- Actual\n- Augmented\n\n### Lifecycle\nIntroduction → Growth → Maturity → Decline",
+          "examples": ["Smartphone lifecycle", "New product launch"],
+          "common_mistakes": [
+            "Ignoring lifecycle stage",
+            "Overloading features"
+          ],
+          "qna": [
+            { "q": "What is product?", "a": "Anything satisfying need." },
+            { "q": "Core product?", "a": "Basic benefit." },
+            {
+              "q": "Lifecycle stages?",
+              "a": "Intro, growth, maturity, decline."
+            },
+            { "q": "Why important?", "a": "Strategy planning." },
+            { "q": "Example?", "a": "Smartphone evolution." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Promotion Strategy",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand promotion tools",
+            "Apply communication strategies"
+          ],
+          "content": "## Promotion Strategy\nCommunication to inform and persuade customers.\n\n### Tools\n- Advertising\n- Sales promotion\n- Public relations\n\n### Importance\nDrives awareness and sales.",
+          "examples": ["TV ads", "Discount campaigns"],
+          "common_mistakes": ["Over-advertising", "Ignoring target audience"],
+          "qna": [
+            { "q": "What is promotion?", "a": "Communication strategy." },
+            { "q": "Tools?", "a": "Ads, PR, sales promotion." },
+            { "q": "Why important?", "a": "Creates awareness." },
+            { "q": "Example?", "a": "Discount sale." },
+            { "q": "Risk?", "a": "Wrong targeting." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Digital Marketing Basics",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "SEO and SEM",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand SEO vs SEM",
+            "Apply digital strategies"
+          ],
+          "content": "## SEO and SEM\nSEO improves organic search ranking, SEM uses paid ads.\n\n### SEO\n- Keywords\n- Content optimization\n\n### SEM\n- Paid ads\n- PPC campaigns\n\n### Importance\nDrives online traffic.",
+          "examples": ["Google search ranking", "Paid ads campaigns"],
+          "common_mistakes": ["Keyword stuffing", "Ignoring analytics"],
+          "qna": [
+            { "q": "What is SEO?", "a": "Organic search optimization." },
+            { "q": "What is SEM?", "a": "Paid marketing." },
+            { "q": "Difference?", "a": "SEO is organic, SEM is paid." },
+            { "q": "Why important?", "a": "Increases traffic." },
+            { "q": "Example?", "a": "Google ads." }
+          ]
+        }
+      ]
+    }
+  ]
+}

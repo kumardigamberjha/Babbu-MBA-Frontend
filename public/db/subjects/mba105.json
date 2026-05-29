@@ -1,0 +1,267 @@
+{
+  "subject_id": "mba105",
+  "title": "Human Resource Management",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "HRM Concepts and Functions",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Introduction to HRM",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand HRM meaning",
+            "Identify core HR functions"
+          ],
+          "content": "## Introduction to Human Resource Management\nHuman Resource Management (HRM) is the process of managing people in organizations effectively and efficiently to achieve organizational goals.\n\n### Objectives\n- Acquire and retain talent\n- Improve employee performance\n- Ensure employee satisfaction\n\n### Core Functions\n- Recruitment\n- Training\n- Performance management\n- Compensation\n\n### Importance\nHRM ensures that the right people are placed in the right roles and motivated to perform.\n\n### Example\nHiring skilled engineers and ensuring they are trained and motivated reflects HRM in action.",
+          "examples": [
+            "Hiring developers for a tech company",
+            "Managing factory workforce efficiency"
+          ],
+          "common_mistakes": [
+            "Treating HR as administrative only",
+            "Ignoring employee satisfaction"
+          ],
+          "qna": [
+            {
+              "q": "What is HRM?",
+              "a": "Managing people to achieve organizational goals."
+            },
+            {
+              "q": "What are HR functions?",
+              "a": "Recruitment, training, performance, compensation."
+            },
+            {
+              "q": "Why is HRM important?",
+              "a": "Ensures effective workforce management."
+            },
+            { "q": "Objective of HRM?", "a": "Maximize employee performance." },
+            { "q": "Example?", "a": "Hiring and training employees." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "HRM Functions",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand managerial and operative HR functions",
+            "Differentiate HR roles"
+          ],
+          "content": "## HRM Functions\nHR functions are divided into managerial and operative.\n\n### Managerial Functions\n- Planning\n- Organizing\n- Directing\n- Controlling\n\n### Operative Functions\n- Procurement\n- Development\n- Compensation\n- Maintenance\n\n### Importance\nEnsures structured HR operations.",
+          "examples": [
+            "Planning workforce needs",
+            "Training programs for employees"
+          ],
+          "common_mistakes": ["Ignoring planning", "Focusing only on hiring"],
+          "qna": [
+            {
+              "q": "What are managerial functions?",
+              "a": "Planning, organizing, directing, controlling."
+            },
+            {
+              "q": "What are operative functions?",
+              "a": "Procurement, development, compensation."
+            },
+            {
+              "q": "Why HR functions important?",
+              "a": "Ensure smooth operations."
+            },
+            {
+              "q": "Difference?",
+              "a": "Managerial is strategic, operative is execution."
+            },
+            { "q": "Example?", "a": "Training employees." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Recruitment and Selection",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Recruitment Process",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand recruitment steps",
+            "Identify sources of recruitment"
+          ],
+          "content": "## Recruitment Process\nRecruitment involves attracting suitable candidates.\n\n### Steps\n1. Job analysis\n2. Job description\n3. Sourcing candidates\n\n### Sources\n- Internal\n- External\n\n### Importance\nEnsures right talent acquisition.",
+          "examples": ["Internal promotion", "Campus recruitment"],
+          "common_mistakes": [
+            "Poor job description",
+            "Limited sourcing channels"
+          ],
+          "qna": [
+            { "q": "What is recruitment?", "a": "Attracting candidates." },
+            { "q": "Sources?", "a": "Internal and external." },
+            { "q": "First step?", "a": "Job analysis." },
+            { "q": "Why important?", "a": "Ensures right hires." },
+            { "q": "Example?", "a": "Campus hiring." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Selection Process",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand selection steps",
+            "Evaluate candidates effectively"
+          ],
+          "content": "## Selection Process\nSelection is choosing the best candidate.\n\n### Steps\n- Screening\n- Interview\n- Testing\n- Final selection\n\n### Importance\nReduces hiring mistakes.",
+          "examples": ["Technical interviews", "Aptitude tests"],
+          "common_mistakes": ["Bias in interviews", "Ignoring skill tests"],
+          "qna": [
+            { "q": "What is selection?", "a": "Choosing best candidate." },
+            { "q": "Steps?", "a": "Screening, interview, testing." },
+            { "q": "Why important?", "a": "Ensures quality hiring." },
+            { "q": "Example?", "a": "Interview process." },
+            { "q": "Risk?", "a": "Hiring wrong candidate." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Training and Development",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Employee Training",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand training importance",
+            "Identify training methods"
+          ],
+          "content": "## Employee Training\nTraining improves employee skills and performance.\n\n### Methods\n- On-the-job\n- Off-the-job\n\n### Importance\nEnhances productivity.",
+          "examples": ["Technical training", "Workshops"],
+          "common_mistakes": ["One-time training only", "Ignoring feedback"],
+          "qna": [
+            { "q": "What is training?", "a": "Improving employee skills." },
+            { "q": "Methods?", "a": "On-job and off-job." },
+            { "q": "Why important?", "a": "Improves productivity." },
+            { "q": "Example?", "a": "Workshops." },
+            { "q": "Risk?", "a": "Outdated skills." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Management Development",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand leadership development",
+            "Apply growth strategies"
+          ],
+          "content": "## Management Development\nFocuses on developing managerial skills.\n\n### Techniques\n- Coaching\n- Mentoring\n\n### Importance\nPrepares future leaders.",
+          "examples": ["Leadership programs", "Executive training"],
+          "common_mistakes": [
+            "Ignoring leadership pipeline",
+            "No long-term planning"
+          ],
+          "qna": [
+            {
+              "q": "What is management development?",
+              "a": "Developing leadership skills."
+            },
+            { "q": "Techniques?", "a": "Coaching, mentoring." },
+            { "q": "Why important?", "a": "Builds leaders." },
+            { "q": "Example?", "a": "Leadership training." },
+            { "q": "Risk?", "a": "Lack of leadership." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Performance Management",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Performance Appraisal",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand appraisal systems",
+            "Evaluate performance metrics"
+          ],
+          "content": "## Performance Appraisal\nSystematic evaluation of employee performance.\n\n### Methods\n- 360-degree feedback\n- Rating scales\n\n### Importance\nImproves performance.",
+          "examples": ["Annual reviews", "Feedback systems"],
+          "common_mistakes": ["Bias in evaluation", "Ignoring feedback"],
+          "qna": [
+            { "q": "What is appraisal?", "a": "Evaluating performance." },
+            { "q": "Methods?", "a": "360-degree feedback." },
+            { "q": "Why important?", "a": "Improves productivity." },
+            { "q": "Example?", "a": "Annual review." },
+            { "q": "Risk?", "a": "Bias." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Compensation and Benefits",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Compensation Management",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand compensation structure",
+            "Design pay systems"
+          ],
+          "content": "## Compensation Management\nCompensation includes salary, wages, and incentives.\n\n### Types\n- Direct\n- Indirect\n\n### Importance\nMotivates employees.",
+          "examples": ["Salary packages", "Bonuses"],
+          "common_mistakes": ["Unfair pay structure", "Ignoring market rates"],
+          "qna": [
+            { "q": "What is compensation?", "a": "Employee payment." },
+            { "q": "Types?", "a": "Direct and indirect." },
+            { "q": "Why important?", "a": "Motivation." },
+            { "q": "Example?", "a": "Bonus." },
+            { "q": "Risk?", "a": "Low morale." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Employee Benefits",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand benefits systems",
+            "Evaluate employee welfare"
+          ],
+          "content": "## Employee Benefits\nBenefits are additional perks.\n\n### Types\n- Health insurance\n- Retirement plans\n\n### Importance\nImproves retention.",
+          "examples": ["Insurance", "Paid leave"],
+          "common_mistakes": [
+            "Ignoring employee needs",
+            "Offering irrelevant benefits"
+          ],
+          "qna": [
+            { "q": "What are benefits?", "a": "Extra perks." },
+            { "q": "Types?", "a": "Insurance, retirement." },
+            { "q": "Why important?", "a": "Retention." },
+            { "q": "Example?", "a": "Paid leave." },
+            { "q": "Risk?", "a": "Employee dissatisfaction." }
+          ]
+        }
+      ]
+    }
+  ]
+}

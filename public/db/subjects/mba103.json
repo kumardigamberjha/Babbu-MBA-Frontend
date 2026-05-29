@@ -1,0 +1,252 @@
+{
+  "subject_id": "mba103",
+  "title": "Financial Accounting",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Accounting Principles and Concepts",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Accounting Concepts and Assumptions",
+          "difficulty": "easy",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand fundamental accounting concepts",
+            "Apply assumptions in real scenarios"
+          ],
+          "content": "## Accounting Concepts and Assumptions\nAccounting is based on standard principles that ensure consistency and reliability.\n\n### Core Concepts\n- **Business Entity**: Owner and business are separate\n- **Going Concern**: Business will continue operations\n- **Accrual**: Record when earned/incurred\n- **Consistency**: Same methods over time\n\n### Why It Matters\nWithout these, financial statements would be inconsistent and unreliable.\n\n### Real Insight\nIf a company suddenly changes depreciation methods without reason, it may be manipulating profits.",
+          "examples": [
+            "Recording salary expense even if unpaid",
+            "Maintaining same accounting policy yearly"
+          ],
+          "common_mistakes": [
+            "Confusing cash vs accrual accounting",
+            "Ignoring consistency principle"
+          ],
+          "qna": [
+            {
+              "q": "What is accrual concept?",
+              "a": "Transactions are recorded when they occur, not when cash is exchanged."
+            },
+            {
+              "q": "Why is consistency important?",
+              "a": "It allows comparison across periods."
+            },
+            {
+              "q": "What is going concern assumption?",
+              "a": "Business is expected to continue operating."
+            },
+            {
+              "q": "What happens if concepts are ignored?",
+              "a": "Financial data becomes unreliable."
+            },
+            {
+              "q": "Give a real-world implication.",
+              "a": "Changing accounting methods to inflate profits."
+            }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Accounting Standards (GAAP & IFRS)",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand accounting frameworks",
+            "Compare GAAP and IFRS"
+          ],
+          "content": "## Accounting Standards\nAccounting standards ensure uniformity in financial reporting.\n\n### Major Frameworks\n- **GAAP** (US)\n- **IFRS** (Global)\n\n### Differences\n- GAAP is rule-based\n- IFRS is principle-based\n\n### Importance\nHelps investors compare companies globally.",
+          "examples": [
+            "Multinational companies using IFRS",
+            "US firms using GAAP"
+          ],
+          "common_mistakes": [
+            "Assuming all countries follow same standards",
+            "Ignoring disclosure requirements"
+          ],
+          "qna": [
+            { "q": "What is GAAP?", "a": "US-based accounting standards." },
+            {
+              "q": "What is IFRS?",
+              "a": "International accounting framework."
+            },
+            {
+              "q": "Key difference?",
+              "a": "GAAP is rule-based, IFRS is principle-based."
+            },
+            { "q": "Why standards needed?", "a": "Ensure comparability." },
+            { "q": "Who benefits?", "a": "Investors and regulators." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Preparation of Financial Statements",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Journal, Ledger, and Trial Balance",
+          "difficulty": "easy",
+          "estimated_time": "25 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand accounting cycle",
+            "Record and classify transactions"
+          ],
+          "content": "## Accounting Cycle\nThe accounting cycle records financial transactions step by step.\n\n### Steps\n1. Journal entries\n2. Ledger posting\n3. Trial balance\n\n### Key Rule\nTotal debits must equal total credits.\n\n### Insight\nErrors may still exist even if trial balance matches.",
+          "examples": [
+            "Recording sales in journal",
+            "Posting to ledger accounts"
+          ],
+          "common_mistakes": [
+            "Wrong classification of accounts",
+            "Assuming trial balance guarantees accuracy"
+          ],
+          "qna": [
+            { "q": "What is journal?", "a": "Book of original entry." },
+            { "q": "What is ledger?", "a": "Classification of accounts." },
+            {
+              "q": "What is trial balance?",
+              "a": "Check for arithmetic accuracy."
+            },
+            { "q": "Does trial balance detect all errors?", "a": "No." },
+            {
+              "q": "Why important?",
+              "a": "Foundation for financial statements."
+            }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Final Accounts (P&L and Balance Sheet)",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Prepare financial statements",
+            "Interpret business performance"
+          ],
+          "content": "## Final Accounts\nFinal accounts show profitability and financial position.\n\n### Components\n- **Profit & Loss Account**: Net profit\n- **Balance Sheet**: Assets, liabilities, equity\n\n### Insight\nProfit does not always mean strong cash flow.",
+          "examples": [
+            "Company reporting profit but low cash",
+            "Balance sheet analysis"
+          ],
+          "common_mistakes": [
+            "Ignoring liabilities",
+            "Confusing revenue with profit"
+          ],
+          "qna": [
+            { "q": "What does P&L show?", "a": "Profit or loss." },
+            {
+              "q": "What does balance sheet show?",
+              "a": "Financial position."
+            },
+            { "q": "Assets?", "a": "Resources owned." },
+            { "q": "Liabilities?", "a": "Obligations." },
+            { "q": "Key insight?", "a": "Profit ≠ cash." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Analysis of Financial Statements",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Horizontal and Vertical Analysis",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": ["Compare financial data", "Analyze trends"],
+          "content": "## Financial Analysis\nAnalyzing financial statements helps understand trends.\n\n### Types\n- Horizontal: Over time\n- Vertical: Percentage basis\n\n### Insight\nTrends matter more than absolute numbers.",
+          "examples": [
+            "Revenue growth analysis",
+            "Expense percentage comparison"
+          ],
+          "common_mistakes": [
+            "Ignoring trends",
+            "Focusing only on single year"
+          ],
+          "qna": [
+            {
+              "q": "What is horizontal analysis?",
+              "a": "Comparison over time."
+            },
+            { "q": "Vertical analysis?", "a": "Percentage-based analysis." },
+            { "q": "Why important?", "a": "Trend detection." },
+            { "q": "Example?", "a": "Revenue growth." },
+            { "q": "Mistake?", "a": "Ignoring trends." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Ratio Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Liquidity and Profitability Ratios",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Evaluate financial health",
+            "Calculate key ratios"
+          ],
+          "content": "## Ratio Analysis\nRatios help evaluate financial performance.\n\n### Types\n- Liquidity (Current Ratio)\n- Profitability (Net Profit Ratio)\n\n### Insight\nHigh profit with low liquidity is risky.",
+          "examples": ["Current ratio analysis", "Profit margin comparison"],
+          "common_mistakes": [
+            "Using ratios without context",
+            "Comparing unrelated companies"
+          ],
+          "qna": [
+            {
+              "q": "What is liquidity ratio?",
+              "a": "Measures short-term solvency."
+            },
+            { "q": "Profitability ratio?", "a": "Measures earning ability." },
+            { "q": "Why important?", "a": "Decision making." },
+            { "q": "Example?", "a": "Current ratio." },
+            { "q": "Risk?", "a": "Misinterpretation." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Cash Flow Statements",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Cash Flow Analysis",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": [],
+          "learning_outcomes": ["Understand cash flows", "Analyze liquidity"],
+          "content": "## Cash Flow Statement\nTracks actual cash movement.\n\n### Sections\n- Operating\n- Investing\n- Financing\n\n### Insight\nCash flow reveals true financial health better than profit.",
+          "examples": [
+            "Positive profit but negative cash flow",
+            "Investment activities"
+          ],
+          "common_mistakes": ["Ignoring cash flow", "Focusing only on profit"],
+          "qna": [
+            {
+              "q": "What is cash flow statement?",
+              "a": "Shows cash movement."
+            },
+            { "q": "Operating activities?", "a": "Core business cash." },
+            { "q": "Investing?", "a": "Assets." },
+            { "q": "Financing?", "a": "Loans/equity." },
+            { "q": "Key insight?", "a": "Cash > profit for survival." }
+          ]
+        }
+      ]
+    }
+  ]
+}

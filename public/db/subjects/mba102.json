@@ -1,0 +1,249 @@
+{
+  "subject_id": "mba102",
+  "title": "Managerial Economics",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Demand and Supply Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Law of Demand",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand demand behavior",
+            "Interpret demand curve"
+          ],
+          "content": "## Law of Demand\nThe law of demand states that, holding other factors constant, quantity demanded decreases when price increases.\n\n### Demand Curve\nDownward sloping due to income and substitution effects.\n\n### Determinants\n- Income\n- Preferences\n- Prices of substitutes/complements\n\n### Exceptions\n- Giffen goods\n- Veblen goods\n\n### Managerial Relevance\nHelps firms forecast demand and set pricing strategies.",
+          "examples": [
+            "Discount increases sales volume",
+            "Luxury pricing increases demand perception"
+          ],
+          "common_mistakes": [
+            "Assuming demand depends only on price",
+            "Ignoring external factors"
+          ],
+          "qna": [
+            {
+              "q": "What is law of demand?",
+              "a": "Inverse relation between price and demand."
+            },
+            {
+              "q": "Why downward slope?",
+              "a": "Income and substitution effects."
+            },
+            { "q": "Exception?", "a": "Giffen goods." },
+            {
+              "q": "Determinants?",
+              "a": "Income, preferences, related goods."
+            },
+            { "q": "Managerial use?", "a": "Pricing decisions." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Elasticity of Demand",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Measure demand responsiveness",
+            "Apply elasticity in pricing"
+          ],
+          "content": "## Elasticity of Demand\nElasticity measures how quantity demanded responds to price changes.\n\n### Types\n- Price elasticity\n- Income elasticity\n- Cross elasticity\n\n### Interpretation\n- Elastic (>1)\n- Inelastic (<1)\n\n### Managerial Use\nHelps maximize revenue and optimize pricing.",
+          "examples": [
+            "Luxury goods are elastic",
+            "Essential goods are inelastic"
+          ],
+          "common_mistakes": [
+            "Confusing slope with elasticity",
+            "Ignoring time factor"
+          ],
+          "qna": [
+            { "q": "What is elasticity?", "a": "Responsiveness of demand." },
+            { "q": "Elastic demand?", "a": "Greater than 1." },
+            { "q": "Inelastic?", "a": "Less than 1." },
+            { "q": "Why important?", "a": "Pricing decisions." },
+            { "q": "Example?", "a": "Fuel demand is inelastic." }
+          ]
+        },
+        {
+          "topic_id": "t3",
+          "title": "Supply Analysis",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand supply behavior",
+            "Analyze supply curve"
+          ],
+          "content": "## Supply Analysis\nSupply refers to quantity producers are willing to sell.\n\n### Law of Supply\nPrice ↑ → Supply ↑\n\n### Determinants\n- Costs\n- Technology\n- Government policies\n\n### Managerial Relevance\nHelps production planning.",
+          "examples": [
+            "Higher prices increase production",
+            "Better tech reduces cost"
+          ],
+          "common_mistakes": [
+            "Ignoring cost factors",
+            "Assuming supply is constant"
+          ],
+          "qna": [
+            { "q": "What is supply?", "a": "Quantity offered." },
+            { "q": "Law?", "a": "Direct relationship with price." },
+            { "q": "Factors?", "a": "Cost, tech." },
+            { "q": "Example?", "a": "Farmers produce more at higher price." },
+            { "q": "Why important?", "a": "Production planning." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Consumer Behavior",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Utility Theory",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand utility concepts",
+            "Apply diminishing utility"
+          ],
+          "content": "## Utility Theory\nUtility measures satisfaction from consumption.\n\n### Types\n- Total utility\n- Marginal utility\n\n### Law\nMarginal utility decreases with each unit.\n\n### Managerial Relevance\nHelps product pricing and bundling.",
+          "examples": ["First coffee is most satisfying", "Bulk discounts"],
+          "common_mistakes": [
+            "Ignoring diminishing returns",
+            "Assuming constant satisfaction"
+          ],
+          "qna": [
+            { "q": "What is utility?", "a": "Satisfaction." },
+            { "q": "Marginal utility?", "a": "Extra satisfaction." },
+            { "q": "Law?", "a": "Diminishing utility." },
+            { "q": "Example?", "a": "Pizza slices." },
+            { "q": "Use?", "a": "Pricing." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Indifference Curve Analysis",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": ["Understand IC properties", "Find equilibrium"],
+          "content": "## Indifference Curve\nShows combinations of goods giving equal satisfaction.\n\n### Properties\n- Downward sloping\n- Convex\n\n### Consumer Equilibrium\nWhere IC touches budget line.\n\n### Managerial Use\nHelps understand preferences.",
+          "examples": ["Food vs clothing choices", "Budget constraints"],
+          "common_mistakes": [
+            "Ignoring budget constraint",
+            "Misinterpreting curves"
+          ],
+          "qna": [
+            { "q": "What is IC?", "a": "Equal satisfaction curve." },
+            { "q": "Shape?", "a": "Convex." },
+            { "q": "Equilibrium?", "a": "Tangent point." },
+            { "q": "Why important?", "a": "Preference analysis." },
+            { "q": "Example?", "a": "Choice between goods." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Production and Cost Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Production Function",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand input-output relation",
+            "Apply diminishing returns"
+          ],
+          "content": "## Production Function\nShows relationship between inputs and outputs.\n\n### Law\nDiminishing marginal returns.\n\n### Types\n- Short run\n- Long run\n\n### Managerial Use\nHelps optimize resources.",
+          "examples": [
+            "Adding workers increases output initially",
+            "Overcrowding reduces efficiency"
+          ],
+          "common_mistakes": [
+            "Ignoring capacity limits",
+            "Assuming linear growth"
+          ],
+          "qna": [
+            {
+              "q": "What is production function?",
+              "a": "Input-output relation."
+            },
+            { "q": "Law?", "a": "Diminishing returns." },
+            { "q": "Short run?", "a": "Fixed inputs." },
+            { "q": "Example?", "a": "Factory workers." },
+            { "q": "Use?", "a": "Efficiency." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Market Structures",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Perfect Competition",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand competitive markets",
+            "Analyze pricing behavior"
+          ],
+          "content": "## Perfect Competition\nMany buyers and sellers with no control over price.\n\n### Features\n- Homogeneous goods\n- Free entry\n\n### Managerial Insight\nFirms are price takers.",
+          "examples": ["Agriculture market"],
+          "common_mistakes": [
+            "Assuming differentiation",
+            "Ignoring competition intensity"
+          ],
+          "qna": [
+            {
+              "q": "What is perfect competition?",
+              "a": "Many sellers market."
+            },
+            { "q": "Feature?", "a": "Homogeneous goods." },
+            { "q": "Pricing?", "a": "Market decides." },
+            { "q": "Example?", "a": "Farming." },
+            { "q": "Firm role?", "a": "Price taker." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Pricing Strategies",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Pricing Techniques",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand pricing methods",
+            "Apply strategies"
+          ],
+          "content": "## Pricing Strategies\nFirms use various pricing techniques.\n\n### Types\n- Cost-based\n- Value-based\n- Competition-based\n\n### Importance\nAffects profitability and positioning.",
+          "examples": ["Premium pricing", "Discount pricing"],
+          "common_mistakes": ["Ignoring customer perception", "Overpricing"],
+          "qna": [
+            { "q": "What is pricing?", "a": "Setting price." },
+            { "q": "Types?", "a": "Cost, value." },
+            { "q": "Why important?", "a": "Profit." },
+            { "q": "Example?", "a": "Luxury pricing." },
+            { "q": "Risk?", "a": "Wrong positioning." }
+          ]
+        }
+      ]
+    }
+  ]
+}

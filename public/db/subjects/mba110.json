@@ -1,0 +1,201 @@
+{
+  "subject_id": "mba110",
+  "title": "Business Ethics and Corporate Governance",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Ethical Theories in Business",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Introduction to Business Ethics",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand meaning of ethics",
+            "Identify importance in business"
+          ],
+          "content": "## Business Ethics\nBusiness ethics refers to moral principles that guide behavior in business activities.\n\n### Key Concepts\n- Right vs wrong\n- Fairness\n- Integrity\n\n### Importance\n- Builds trust\n- Enhances reputation\n- Prevents legal issues\n\n### Example\nA company refusing to engage in bribery despite losing contracts.",
+          "examples": [
+            "Transparent pricing policies",
+            "Avoiding corruption practices"
+          ],
+          "common_mistakes": [
+            "Treating ethics as optional",
+            "Ignoring long-term impact"
+          ],
+          "qna": [
+            {
+              "q": "What is business ethics?",
+              "a": "Moral principles guiding business behavior."
+            },
+            { "q": "Why important?", "a": "Builds trust and reputation." },
+            {
+              "q": "What is integrity?",
+              "a": "Acting honestly and consistently."
+            },
+            { "q": "Example?", "a": "Refusing bribery." },
+            {
+              "q": "Risk of ignoring ethics?",
+              "a": "Legal and reputational damage."
+            }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Ethical Theories",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand key ethical theories",
+            "Apply theories in decision-making"
+          ],
+          "content": "## Ethical Theories\nEthical theories provide frameworks for decision-making.\n\n### Types\n- Utilitarianism: Greatest good for greatest number\n- Deontology: Duty-based ethics\n- Virtue Ethics: Character-based approach\n\n### Importance\nHelps evaluate business decisions ethically.",
+          "examples": [
+            "Choosing profit vs social good",
+            "Following rules vs outcomes"
+          ],
+          "common_mistakes": [
+            "Over-reliance on one theory",
+            "Ignoring context"
+          ],
+          "qna": [
+            {
+              "q": "What is utilitarianism?",
+              "a": "Maximizing overall happiness."
+            },
+            { "q": "What is deontology?", "a": "Duty-based ethics." },
+            { "q": "Virtue ethics?", "a": "Focus on character." },
+            { "q": "Why important?", "a": "Guides decisions." },
+            { "q": "Example?", "a": "Choosing ethical sourcing." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Corporate Social Responsibility",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "CSR Concepts",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand CSR meaning",
+            "Identify CSR activities"
+          ],
+          "content": "## Corporate Social Responsibility\nCSR refers to business practices that benefit society.\n\n### Areas\n- Environmental\n- Social\n- Economic\n\n### Importance\nEnhances brand value and trust.",
+          "examples": ["Planting trees", "Community education programs"],
+          "common_mistakes": [
+            "Using CSR only for marketing",
+            "Ignoring real impact"
+          ],
+          "qna": [
+            {
+              "q": "What is CSR?",
+              "a": "Business responsibility towards society."
+            },
+            { "q": "Areas?", "a": "Environmental, social." },
+            { "q": "Why important?", "a": "Builds trust." },
+            { "q": "Example?", "a": "Education programs." },
+            { "q": "Risk?", "a": "Greenwashing." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Corporate Governance Framework",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Corporate Governance Basics",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand governance structure",
+            "Identify roles of stakeholders"
+          ],
+          "content": "## Corporate Governance\nCorporate governance refers to systems and processes by which companies are directed and controlled.\n\n### Key Elements\n- Board of directors\n- Shareholders\n- Accountability\n\n### Importance\nEnsures transparency and accountability.",
+          "examples": ["Board oversight", "Audit committees"],
+          "common_mistakes": ["Weak board control", "Lack of transparency"],
+          "qna": [
+            {
+              "q": "What is corporate governance?",
+              "a": "System of controlling companies."
+            },
+            { "q": "Key element?", "a": "Board of directors." },
+            { "q": "Why important?", "a": "Ensures accountability." },
+            { "q": "Example?", "a": "Audit committee." },
+            { "q": "Risk?", "a": "Fraud." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Ethical Decision Making",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Decision-Making Models",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand ethical decision steps",
+            "Apply structured thinking"
+          ],
+          "content": "## Ethical Decision Making\nStructured approach to ethical decisions.\n\n### Steps\n1. Identify issue\n2. Evaluate alternatives\n3. Choose best option\n\n### Importance\nReduces unethical actions.",
+          "examples": [
+            "Handling conflict of interest",
+            "Whistleblowing decisions"
+          ],
+          "common_mistakes": ["Ignoring consequences", "Bias in decisions"],
+          "qna": [
+            {
+              "q": "What is ethical decision making?",
+              "a": "Choosing right action."
+            },
+            { "q": "Steps?", "a": "Identify, evaluate, choose." },
+            { "q": "Why important?", "a": "Prevents unethical behavior." },
+            { "q": "Example?", "a": "Conflict resolution." },
+            { "q": "Risk?", "a": "Bias." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Sustainability and ESG",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Sustainability Concepts",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand sustainability",
+            "Identify ESG factors"
+          ],
+          "content": "## Sustainability and ESG\nSustainability focuses on long-term environmental and social impact.\n\n### ESG\n- Environmental\n- Social\n- Governance\n\n### Importance\nEnsures long-term business success.",
+          "examples": ["Renewable energy use", "Ethical labor practices"],
+          "common_mistakes": ["Ignoring ESG reporting", "Short-term focus"],
+          "qna": [
+            { "q": "What is sustainability?", "a": "Long-term impact focus." },
+            { "q": "What is ESG?", "a": "Environmental, Social, Governance." },
+            { "q": "Why important?", "a": "Long-term success." },
+            { "q": "Example?", "a": "Renewable energy." },
+            { "q": "Risk?", "a": "Ignoring impact." }
+          ]
+        }
+      ]
+    }
+  ]
+}

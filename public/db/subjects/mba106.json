@@ -1,0 +1,267 @@
+{
+  "subject_id": "mba106",
+  "title": "Operations Management",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Introduction to Operations",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Operations Management Overview",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand operations management role",
+            "Identify transformation process"
+          ],
+          "content": "## Operations Management Overview\nOperations Management (OM) deals with designing, managing, and improving production and service processes.\n\n### Transformation Process\nInputs → Processes → Outputs\n\n### Types of Operations\n- Manufacturing\n- Service\n\n### Importance\n- Improves efficiency\n- Reduces costs\n- Enhances quality\n\n### Example\nA factory converting raw materials into finished goods.",
+          "examples": ["Car manufacturing plant", "Food delivery service"],
+          "common_mistakes": [
+            "Focusing only on production",
+            "Ignoring service operations"
+          ],
+          "qna": [
+            {
+              "q": "What is operations management?",
+              "a": "Managing production and service processes."
+            },
+            {
+              "q": "What is transformation process?",
+              "a": "Converting inputs into outputs."
+            },
+            { "q": "Types of operations?", "a": "Manufacturing and service." },
+            { "q": "Why important?", "a": "Improves efficiency and quality." },
+            { "q": "Example?", "a": "Manufacturing plant." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Operations Strategy",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand strategic alignment",
+            "Identify competitive priorities"
+          ],
+          "content": "## Operations Strategy\nOperations strategy aligns operations with business goals.\n\n### Competitive Priorities\n- Cost\n- Quality\n- Flexibility\n- Delivery\n\n### Importance\nHelps organizations gain competitive advantage.",
+          "examples": [
+            "Low-cost airline strategy",
+            "High-quality luxury brand"
+          ],
+          "common_mistakes": [
+            "Ignoring alignment with business goals",
+            "Trying to optimize everything equally"
+          ],
+          "qna": [
+            {
+              "q": "What is operations strategy?",
+              "a": "Alignment of operations with goals."
+            },
+            {
+              "q": "Key priorities?",
+              "a": "Cost, quality, flexibility, delivery."
+            },
+            { "q": "Why important?", "a": "Competitive advantage." },
+            { "q": "Example?", "a": "Low-cost strategy." },
+            { "q": "Risk?", "a": "Misalignment." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Process Design and Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Process Design",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand process types",
+            "Design efficient workflows"
+          ],
+          "content": "## Process Design\nProcess design defines how work is performed.\n\n### Types\n- Job process\n- Batch process\n- Mass process\n\n### Importance\nImproves efficiency and consistency.",
+          "examples": [
+            "Custom furniture job process",
+            "Assembly line production"
+          ],
+          "common_mistakes": [
+            "Overcomplicating processes",
+            "Ignoring scalability"
+          ],
+          "qna": [
+            { "q": "What is process design?", "a": "Designing workflows." },
+            { "q": "Types?", "a": "Job, batch, mass." },
+            { "q": "Why important?", "a": "Efficiency." },
+            { "q": "Example?", "a": "Assembly line." },
+            { "q": "Risk?", "a": "Inefficiency." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Process Analysis",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": ["Analyze workflows", "Identify bottlenecks"],
+          "content": "## Process Analysis\nEvaluates process performance.\n\n### Tools\n- Flowcharts\n- Time studies\n\n### Bottlenecks\nPoints limiting throughput.\n\n### Importance\nImproves productivity.",
+          "examples": [
+            "Production delay analysis",
+            "Service wait time reduction"
+          ],
+          "common_mistakes": [
+            "Ignoring bottlenecks",
+            "Not measuring performance"
+          ],
+          "qna": [
+            { "q": "What is process analysis?", "a": "Evaluating processes." },
+            { "q": "What is bottleneck?", "a": "Limiting factor." },
+            { "q": "Tools?", "a": "Flowcharts." },
+            { "q": "Why important?", "a": "Improve efficiency." },
+            { "q": "Example?", "a": "Reducing delays." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Inventory Management",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Inventory Basics",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand inventory types",
+            "Identify holding costs"
+          ],
+          "content": "## Inventory Management\nInventory includes raw materials, work-in-progress, and finished goods.\n\n### Types\n- Raw materials\n- WIP\n- Finished goods\n\n### Costs\n- Holding\n- Ordering\n\n### Importance\nEnsures smooth production.",
+          "examples": ["Warehouse stock", "Retail inventory"],
+          "common_mistakes": ["Overstocking", "Stockouts"],
+          "qna": [
+            { "q": "What is inventory?", "a": "Stored goods." },
+            { "q": "Types?", "a": "Raw, WIP, finished." },
+            { "q": "Costs?", "a": "Holding and ordering." },
+            { "q": "Why important?", "a": "Continuity." },
+            { "q": "Risk?", "a": "Stockouts." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "EOQ Model",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand EOQ formula",
+            "Optimize inventory levels"
+          ],
+          "content": "## Economic Order Quantity (EOQ)\nEOQ determines optimal order size minimizing costs.\n\n### Components\n- Demand\n- Ordering cost\n- Holding cost\n\n### Importance\nReduces total inventory cost.",
+          "examples": ["Retail restocking", "Warehouse optimization"],
+          "common_mistakes": [
+            "Ignoring demand variability",
+            "Using static assumptions"
+          ],
+          "qna": [
+            { "q": "What is EOQ?", "a": "Optimal order size." },
+            { "q": "Purpose?", "a": "Minimize cost." },
+            { "q": "Factors?", "a": "Demand, cost." },
+            { "q": "Why important?", "a": "Cost efficiency." },
+            { "q": "Example?", "a": "Inventory planning." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Supply Chain Management",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Supply Chain Basics",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand supply chain components",
+            "Analyze flow of goods"
+          ],
+          "content": "## Supply Chain Management\nManages flow of goods from supplier to customer.\n\n### Components\n- Suppliers\n- Manufacturers\n- Distributors\n\n### Importance\nImproves efficiency and reduces cost.",
+          "examples": ["Amazon logistics", "Manufacturing supply chain"],
+          "common_mistakes": [
+            "Poor coordination",
+            "Ignoring demand fluctuations"
+          ],
+          "qna": [
+            { "q": "What is supply chain?", "a": "Flow of goods." },
+            { "q": "Components?", "a": "Supplier, manufacturer." },
+            { "q": "Why important?", "a": "Efficiency." },
+            { "q": "Example?", "a": "E-commerce logistics." },
+            { "q": "Risk?", "a": "Disruptions." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Quality Management (TQM, Six Sigma)",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Total Quality Management (TQM)",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand TQM principles",
+            "Apply quality improvement"
+          ],
+          "content": "## Total Quality Management\nTQM focuses on continuous improvement.\n\n### Principles\n- Customer focus\n- Continuous improvement\n\n### Importance\nImproves product quality.",
+          "examples": ["Toyota production system", "Continuous feedback loops"],
+          "common_mistakes": [
+            "Ignoring employee involvement",
+            "One-time improvement mindset"
+          ],
+          "qna": [
+            { "q": "What is TQM?", "a": "Continuous quality improvement." },
+            { "q": "Principle?", "a": "Customer focus." },
+            { "q": "Why important?", "a": "Quality improvement." },
+            { "q": "Example?", "a": "Toyota system." },
+            { "q": "Risk?", "a": "No continuous effort." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Six Sigma",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand Six Sigma methodology",
+            "Reduce process defects"
+          ],
+          "content": "## Six Sigma\nData-driven approach to reduce defects.\n\n### DMAIC\n- Define\n- Measure\n- Analyze\n- Improve\n- Control\n\n### Importance\nImproves efficiency and quality.",
+          "examples": ["Process optimization", "Defect reduction"],
+          "common_mistakes": ["Ignoring data", "Incomplete implementation"],
+          "qna": [
+            { "q": "What is Six Sigma?", "a": "Defect reduction method." },
+            {
+              "q": "DMAIC?",
+              "a": "Define, Measure, Analyze, Improve, Control."
+            },
+            { "q": "Why important?", "a": "Quality and efficiency." },
+            { "q": "Example?", "a": "Process improvement." },
+            { "q": "Risk?", "a": "Poor data use." }
+          ]
+        }
+      ]
+    }
+  ]
+}

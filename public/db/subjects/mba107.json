@@ -1,0 +1,219 @@
+{
+  "subject_id": "mba107",
+  "title": "Financial Management",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Time Value of Money",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Concept of Time Value of Money",
+          "difficulty": "easy",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand why money has time value",
+            "Compare present and future value"
+          ],
+          "content": "## Time Value of Money (TVM)\nThe concept states that money available today is worth more than the same amount in the future due to its earning potential.\n\n### Reasons\n- Inflation\n- Opportunity cost\n- Risk\n\n### Key Concepts\n- Present Value (PV)\n- Future Value (FV)\n\n### Example\n₹100 today is worth more than ₹100 after one year because it can be invested.",
+          "examples": [
+            "Investing money in a bank",
+            "Delaying payment reduces value"
+          ],
+          "common_mistakes": [
+            "Ignoring inflation",
+            "Comparing future money directly with present"
+          ],
+          "qna": [
+            {
+              "q": "What is TVM?",
+              "a": "Money today is worth more than future money."
+            },
+            {
+              "q": "Why does money have time value?",
+              "a": "Due to inflation and opportunity cost."
+            },
+            {
+              "q": "What is present value?",
+              "a": "Current worth of future money."
+            },
+            { "q": "What is future value?", "a": "Value of money in future." },
+            { "q": "Example?", "a": "₹100 today vs ₹100 next year." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Compounding and Discounting",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Apply compounding and discounting",
+            "Calculate future and present values"
+          ],
+          "content": "## Compounding and Discounting\nCompounding calculates future value, while discounting calculates present value.\n\n### Compounding\nFV = PV × (1 + r)^n\n\n### Discounting\nPV = FV / (1 + r)^n\n\n### Importance\nUsed in investment decisions.",
+          "examples": ["Fixed deposits", "Loan calculations"],
+          "common_mistakes": [
+            "Using wrong rate",
+            "Ignoring compounding periods"
+          ],
+          "qna": [
+            { "q": "What is compounding?", "a": "Calculating future value." },
+            { "q": "What is discounting?", "a": "Calculating present value." },
+            { "q": "Formula for FV?", "a": "PV(1+r)^n." },
+            { "q": "Why important?", "a": "Investment decisions." },
+            { "q": "Example?", "a": "Bank interest." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Capital Budgeting",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Capital Budgeting Techniques",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": ["m1_t2"],
+          "learning_outcomes": [
+            "Evaluate investment projects",
+            "Apply NPV and IRR"
+          ],
+          "content": "## Capital Budgeting\nProcess of evaluating long-term investment decisions.\n\n### Techniques\n- Net Present Value (NPV)\n- Internal Rate of Return (IRR)\n- Payback Period\n\n### NPV Rule\nAccept if NPV > 0\n\n### Importance\nEnsures profitable investment decisions.",
+          "examples": ["Factory expansion", "Buying new machinery"],
+          "common_mistakes": [
+            "Ignoring cash flows",
+            "Focusing only on payback"
+          ],
+          "qna": [
+            {
+              "q": "What is capital budgeting?",
+              "a": "Evaluating long-term investments."
+            },
+            {
+              "q": "What is NPV?",
+              "a": "Difference between inflow and outflow."
+            },
+            { "q": "IRR?", "a": "Rate where NPV is zero." },
+            { "q": "Payback?", "a": "Time to recover investment." },
+            { "q": "Decision rule?", "a": "Accept if NPV positive." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Cost of Capital",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Cost of Capital Basics",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand cost of capital",
+            "Identify sources of finance"
+          ],
+          "content": "## Cost of Capital\nCost of capital is the return required by investors.\n\n### Types\n- Cost of equity\n- Cost of debt\n\n### Importance\nUsed as discount rate in decisions.",
+          "examples": ["Investor expectations", "Loan interest rates"],
+          "common_mistakes": ["Ignoring risk", "Using wrong rate"],
+          "qna": [
+            { "q": "What is cost of capital?", "a": "Required return." },
+            { "q": "Types?", "a": "Equity and debt." },
+            { "q": "Why important?", "a": "Investment decisions." },
+            { "q": "Example?", "a": "Loan interest." },
+            { "q": "Risk?", "a": "Wrong valuation." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Weighted Average Cost of Capital (WACC)",
+          "difficulty": "medium",
+          "estimated_time": "25 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Calculate WACC",
+            "Apply in project evaluation"
+          ],
+          "content": "## WACC\nWeighted average of cost of equity and debt.\n\n### Formula\nWACC = (E/V × Re) + (D/V × Rd)\n\n### Importance\nUsed as hurdle rate.",
+          "examples": ["Corporate finance decisions", "Project evaluation"],
+          "common_mistakes": ["Wrong weights", "Ignoring tax impact"],
+          "qna": [
+            { "q": "What is WACC?", "a": "Weighted cost of capital." },
+            { "q": "Components?", "a": "Equity and debt." },
+            { "q": "Why important?", "a": "Discount rate." },
+            { "q": "Example?", "a": "Project evaluation." },
+            { "q": "Risk?", "a": "Wrong decision." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Working Capital Management",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Working Capital Concepts",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand working capital",
+            "Manage short-term assets"
+          ],
+          "content": "## Working Capital\nDifference between current assets and liabilities.\n\n### Components\n- Cash\n- Inventory\n- Receivables\n\n### Importance\nEnsures liquidity.",
+          "examples": ["Daily business expenses", "Inventory stock"],
+          "common_mistakes": [
+            "Over-investment in inventory",
+            "Poor receivable management"
+          ],
+          "qna": [
+            {
+              "q": "What is working capital?",
+              "a": "Current assets minus liabilities."
+            },
+            { "q": "Why important?", "a": "Liquidity." },
+            { "q": "Components?", "a": "Cash, inventory." },
+            { "q": "Example?", "a": "Stock management." },
+            { "q": "Risk?", "a": "Cash shortage." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Risk and Return Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Risk and Return Basics",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand risk-return relationship",
+            "Analyze investment decisions"
+          ],
+          "content": "## Risk and Return\nHigher risk leads to higher expected return.\n\n### Types of Risk\n- Systematic\n- Unsystematic\n\n### Importance\nHelps in portfolio decisions.",
+          "examples": ["Stock market investment", "Diversification"],
+          "common_mistakes": [
+            "Ignoring diversification",
+            "Overestimating returns"
+          ],
+          "qna": [
+            { "q": "What is risk?", "a": "Uncertainty in returns." },
+            { "q": "Types?", "a": "Systematic and unsystematic." },
+            { "q": "Relationship?", "a": "Higher risk, higher return." },
+            { "q": "Why important?", "a": "Investment decisions." },
+            { "q": "Example?", "a": "Stock investment." }
+          ]
+        }
+      ]
+    }
+  ]
+}

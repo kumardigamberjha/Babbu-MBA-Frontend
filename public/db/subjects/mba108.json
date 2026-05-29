@@ -1,0 +1,201 @@
+{
+  "subject_id": "mba108",
+  "title": "Business Research Methods",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Research Design",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Introduction to Research",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand research purpose",
+            "Differentiate types of research"
+          ],
+          "content": "## Introduction to Research\nResearch is a systematic process of collecting, analyzing, and interpreting data to solve problems or answer questions.\n\n### Types of Research\n- Exploratory\n- Descriptive\n- Causal\n\n### Importance\n- Supports decision making\n- Reduces uncertainty\n\n### Example\nA company studying customer preferences before launching a product.",
+          "examples": [
+            "Market survey before product launch",
+            "Customer satisfaction study"
+          ],
+          "common_mistakes": [
+            "Starting without clear objective",
+            "Collecting irrelevant data"
+          ],
+          "qna": [
+            {
+              "q": "What is research?",
+              "a": "Systematic data analysis for decision making."
+            },
+            { "q": "Types?", "a": "Exploratory, descriptive, causal." },
+            { "q": "Why important?", "a": "Reduces uncertainty." },
+            { "q": "Example?", "a": "Market study." },
+            { "q": "Risk?", "a": "Poor problem definition." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Research Design Types",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand research structures",
+            "Choose appropriate design"
+          ],
+          "content": "## Research Design\nResearch design is the framework guiding data collection and analysis.\n\n### Types\n- Exploratory design\n- Descriptive design\n- Experimental design\n\n### Importance\nEnsures validity and reliability of research.",
+          "examples": [
+            "Survey-based descriptive study",
+            "A/B testing experiment"
+          ],
+          "common_mistakes": [
+            "Wrong design choice",
+            "Ignoring research objective"
+          ],
+          "qna": [
+            { "q": "What is research design?", "a": "Framework for research." },
+            { "q": "Types?", "a": "Exploratory, descriptive, experimental." },
+            { "q": "Why important?", "a": "Ensures accuracy." },
+            { "q": "Example?", "a": "A/B testing." },
+            { "q": "Risk?", "a": "Invalid results." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Data Collection Methods",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Primary Data Collection",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand primary data",
+            "Identify collection methods"
+          ],
+          "content": "## Primary Data\nPrimary data is collected directly from sources.\n\n### Methods\n- Surveys\n- Interviews\n- Observations\n\n### Importance\nProvides specific and accurate data.",
+          "examples": ["Customer surveys", "Face-to-face interviews"],
+          "common_mistakes": ["Biased questions", "Small sample size"],
+          "qna": [
+            { "q": "What is primary data?", "a": "First-hand data." },
+            { "q": "Methods?", "a": "Survey, interview." },
+            { "q": "Why important?", "a": "Accuracy." },
+            { "q": "Example?", "a": "Survey." },
+            { "q": "Risk?", "a": "Bias." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Secondary Data Collection",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand secondary data",
+            "Evaluate sources"
+          ],
+          "content": "## Secondary Data\nData already collected by others.\n\n### Sources\n- Reports\n- Journals\n- Databases\n\n### Importance\nSaves time and cost.",
+          "examples": ["Government reports", "Industry databases"],
+          "common_mistakes": ["Using outdated data", "Ignoring reliability"],
+          "qna": [
+            { "q": "What is secondary data?", "a": "Existing data." },
+            { "q": "Sources?", "a": "Reports, journals." },
+            { "q": "Why important?", "a": "Cost-effective." },
+            { "q": "Example?", "a": "Census data." },
+            { "q": "Risk?", "a": "Outdated info." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Sampling Techniques",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Sampling Methods",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand sampling techniques",
+            "Choose appropriate sample"
+          ],
+          "content": "## Sampling Techniques\nSampling involves selecting a subset of population.\n\n### Types\n- Probability sampling\n- Non-probability sampling\n\n### Importance\nEnsures representativeness.",
+          "examples": ["Random sampling", "Convenience sampling"],
+          "common_mistakes": ["Biased samples", "Small size"],
+          "qna": [
+            { "q": "What is sampling?", "a": "Selecting subset." },
+            { "q": "Types?", "a": "Probability, non-probability." },
+            { "q": "Why important?", "a": "Represents population." },
+            { "q": "Example?", "a": "Random sample." },
+            { "q": "Risk?", "a": "Bias." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Hypothesis Testing",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Hypothesis Basics",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand hypothesis concept",
+            "Differentiate null and alternative"
+          ],
+          "content": "## Hypothesis Testing\nHypothesis is a testable statement.\n\n### Types\n- Null hypothesis (H0)\n- Alternative hypothesis (H1)\n\n### Importance\nSupports statistical decision making.",
+          "examples": ["Testing marketing impact", "Sales increase hypothesis"],
+          "common_mistakes": [
+            "Misinterpreting results",
+            "Ignoring significance level"
+          ],
+          "qna": [
+            { "q": "What is hypothesis?", "a": "Testable statement." },
+            { "q": "H0?", "a": "Null hypothesis." },
+            { "q": "H1?", "a": "Alternative." },
+            { "q": "Why important?", "a": "Decision making." },
+            { "q": "Risk?", "a": "Wrong conclusion." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Report Writing",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Research Report Structure",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand report structure",
+            "Present findings clearly"
+          ],
+          "content": "## Research Report\nA research report presents findings clearly.\n\n### Structure\n- Introduction\n- Methodology\n- Results\n- Conclusion\n\n### Importance\nCommunicates insights effectively.",
+          "examples": ["Business report", "Academic paper"],
+          "common_mistakes": ["Poor structure", "Lack of clarity"],
+          "qna": [
+            { "q": "What is report?", "a": "Presentation of findings." },
+            { "q": "Structure?", "a": "Intro, method, results." },
+            { "q": "Why important?", "a": "Communication." },
+            { "q": "Example?", "a": "Business report." },
+            { "q": "Risk?", "a": "Confusion." }
+          ]
+        }
+      ]
+    }
+  ]
+}

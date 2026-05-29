@@ -1,0 +1,246 @@
+{
+  "subject_id": "mba109",
+  "title": "Strategic Management",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Strategy Formulation",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Introduction to Strategy",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand what strategy is",
+            "Differentiate strategy vs tactics"
+          ],
+          "content": "## Introduction to Strategy\nStrategy refers to a long-term plan designed to achieve competitive advantage and organizational goals.\n\n### Key Concepts\n- Strategy vs Tactics\n- Long-term focus\n- Resource allocation\n\n### Levels of Strategy\n- Corporate\n- Business\n- Functional\n\n### Importance\nProvides direction and helps organizations compete effectively.\n\n### Example\nA company deciding to enter a new international market is making a strategic decision.",
+          "examples": [
+            "Expansion into global markets",
+            "Launching a new product line"
+          ],
+          "common_mistakes": [
+            "Confusing tactics with strategy",
+            "Short-term thinking"
+          ],
+          "qna": [
+            {
+              "q": "What is strategy?",
+              "a": "A long-term plan to achieve goals."
+            },
+            {
+              "q": "Difference between strategy and tactics?",
+              "a": "Strategy is long-term, tactics are short-term actions."
+            },
+            {
+              "q": "Levels of strategy?",
+              "a": "Corporate, business, functional."
+            },
+            { "q": "Why is strategy important?", "a": "Provides direction." },
+            { "q": "Example?", "a": "Entering new markets." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Vision, Mission, and Objectives",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand vision and mission",
+            "Set strategic objectives"
+          ],
+          "content": "## Vision, Mission, and Objectives\nOrganizations define their purpose and goals through vision and mission statements.\n\n### Vision\nFuture aspiration\n\n### Mission\nCurrent purpose\n\n### Objectives\nSpecific measurable goals\n\n### Importance\nAligns organization direction.",
+          "examples": [
+            "Becoming global leader",
+            "Improving customer satisfaction"
+          ],
+          "common_mistakes": ["Vague statements", "Unrealistic goals"],
+          "qna": [
+            { "q": "What is vision?", "a": "Future aspiration." },
+            { "q": "What is mission?", "a": "Current purpose." },
+            { "q": "What are objectives?", "a": "Specific goals." },
+            { "q": "Why important?", "a": "Provides direction." },
+            { "q": "Example?", "a": "Increase market share." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "SWOT and PESTLE Analysis",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "SWOT Analysis",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand SWOT framework",
+            "Analyze internal and external factors"
+          ],
+          "content": "## SWOT Analysis\nSWOT analyzes Strengths, Weaknesses, Opportunities, and Threats.\n\n### Internal Factors\n- Strengths\n- Weaknesses\n\n### External Factors\n- Opportunities\n- Threats\n\n### Importance\nHelps strategic decision-making.",
+          "examples": [
+            "Strong brand as strength",
+            "Market competition as threat"
+          ],
+          "common_mistakes": [
+            "Ignoring weaknesses",
+            "Overestimating strengths"
+          ],
+          "qna": [
+            {
+              "q": "What is SWOT?",
+              "a": "Analysis of strengths, weaknesses, opportunities, threats."
+            },
+            { "q": "Internal factors?", "a": "Strengths and weaknesses." },
+            { "q": "External factors?", "a": "Opportunities and threats." },
+            { "q": "Why important?", "a": "Strategic planning." },
+            { "q": "Example?", "a": "Strong brand." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "PESTLE Analysis",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand macro environment analysis",
+            "Apply PESTLE framework"
+          ],
+          "content": "## PESTLE Analysis\nAnalyzes macro environment factors.\n\n### Components\n- Political\n- Economic\n- Social\n- Technological\n- Legal\n- Environmental\n\n### Importance\nIdentifies external risks and opportunities.",
+          "examples": ["Government policy changes", "Technological disruption"],
+          "common_mistakes": ["Ignoring legal factors", "Static analysis"],
+          "qna": [
+            { "q": "What is PESTLE?", "a": "Macro environment analysis." },
+            { "q": "Components?", "a": "Political, economic, social, etc." },
+            { "q": "Why important?", "a": "Identify risks." },
+            { "q": "Example?", "a": "New regulations." },
+            { "q": "Risk?", "a": "Ignoring environment." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Competitive Strategies (Porter)",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Porter’s Five Forces",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand industry competition",
+            "Analyze market forces"
+          ],
+          "content": "## Porter's Five Forces\nFramework to analyze industry competition.\n\n### Forces\n- Threat of new entrants\n- Bargaining power of buyers\n- Bargaining power of suppliers\n- Threat of substitutes\n- Competitive rivalry\n\n### Importance\nHelps determine industry profitability.",
+          "examples": ["Tech industry competition", "Retail rivalry"],
+          "common_mistakes": [
+            "Ignoring substitutes",
+            "Underestimating competition"
+          ],
+          "qna": [
+            {
+              "q": "What is Porter’s model?",
+              "a": "Industry analysis framework."
+            },
+            { "q": "How many forces?", "a": "Five." },
+            { "q": "Why important?", "a": "Assess competition." },
+            { "q": "Example?", "a": "Market rivalry." },
+            { "q": "Risk?", "a": "Ignoring substitutes." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Generic Strategies",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand Porter’s strategies",
+            "Apply competitive positioning"
+          ],
+          "content": "## Porter’s Generic Strategies\nThree main strategies:\n- Cost leadership\n- Differentiation\n- Focus\n\n### Importance\nHelps firms gain competitive advantage.",
+          "examples": ["Low-cost airline", "Luxury brand"],
+          "common_mistakes": [
+            "Trying to follow all strategies",
+            "Lack of focus"
+          ],
+          "qna": [
+            {
+              "q": "What are generic strategies?",
+              "a": "Cost, differentiation, focus."
+            },
+            { "q": "Cost leadership?", "a": "Lowest cost producer." },
+            { "q": "Differentiation?", "a": "Unique product." },
+            { "q": "Why important?", "a": "Competitive advantage." },
+            { "q": "Risk?", "a": "Stuck in middle." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Strategy Implementation",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Strategy Execution",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand implementation process",
+            "Align structure with strategy"
+          ],
+          "content": "## Strategy Implementation\nExecution of planned strategies.\n\n### Elements\n- Organizational structure\n- Leadership\n- Resources\n\n### Importance\nEnsures strategy success.",
+          "examples": [
+            "Launching new product strategy",
+            "Organizational restructuring"
+          ],
+          "common_mistakes": ["Poor communication", "Lack of alignment"],
+          "qna": [
+            { "q": "What is implementation?", "a": "Executing strategy." },
+            { "q": "Elements?", "a": "Structure, leadership." },
+            { "q": "Why important?", "a": "Ensures success." },
+            { "q": "Example?", "a": "Product launch." },
+            { "q": "Risk?", "a": "Poor execution." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Strategy Evaluation and Control",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Strategy Evaluation",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Evaluate strategic performance",
+            "Apply control mechanisms"
+          ],
+          "content": "## Strategy Evaluation\nAssessing effectiveness of strategy.\n\n### Tools\n- KPIs\n- Benchmarking\n\n### Importance\nEnsures goals are met.",
+          "examples": ["Performance metrics", "Comparing competitors"],
+          "common_mistakes": ["Ignoring feedback", "No corrective action"],
+          "qna": [
+            { "q": "What is evaluation?", "a": "Assessing strategy." },
+            { "q": "Tools?", "a": "KPIs." },
+            { "q": "Why important?", "a": "Ensure success." },
+            { "q": "Example?", "a": "Performance tracking." },
+            { "q": "Risk?", "a": "No control." }
+          ]
+        }
+      ]
+    }
+  ]
+}

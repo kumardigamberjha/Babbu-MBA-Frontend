@@ -1,0 +1,192 @@
+{
+  "subject_id": "mba101",
+  "title": "Management Principles and Organizational Behavior",
+  "modules": [
+    {
+      "module_id": "m1",
+      "title": "Fundamentals of Management",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Introduction to Management",
+          "difficulty": "easy",
+          "estimated_time": "15 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand management definition",
+            "Identify core functions of management"
+          ],
+          "content": "## Introduction to Management\nManagement is the process of planning, organizing, leading, and controlling resources to achieve organizational goals efficiently and effectively.\n\n### Efficiency vs Effectiveness\n- Efficiency: Minimizing waste\n- Effectiveness: Achieving goals\n\n### Functions of Management\n- Planning\n- Organizing\n- Leading\n- Controlling\n\n### Role of Managers\nManagers coordinate people and resources to achieve organizational objectives.\n\n### Example\nA production manager allocating resources and monitoring output demonstrates all management functions.",
+          "examples": [
+            "Factory production planning",
+            "Team management in IT company"
+          ],
+          "common_mistakes": [
+            "Confusing efficiency with effectiveness",
+            "Ignoring planning stage"
+          ],
+          "qna": [
+            {
+              "q": "What is management?",
+              "a": "Process of planning, organizing, leading, controlling resources."
+            },
+            {
+              "q": "What is efficiency?",
+              "a": "Doing things with minimal waste."
+            },
+            { "q": "What is effectiveness?", "a": "Achieving desired goals." },
+            {
+              "q": "Functions of management?",
+              "a": "Planning, organizing, leading, controlling."
+            },
+            { "q": "Example?", "a": "Managing factory production." }
+          ]
+        },
+        {
+          "topic_id": "t2",
+          "title": "Managerial Roles",
+          "difficulty": "medium",
+          "estimated_time": "15 min",
+          "prerequisites": ["t1"],
+          "learning_outcomes": [
+            "Understand Mintzberg roles",
+            "Apply managerial responsibilities"
+          ],
+          "content": "## Managerial Roles\nManagers perform different roles categorized into interpersonal, informational, and decisional roles.\n\n### Interpersonal Roles\n- Leader\n- Liaison\n\n### Informational Roles\n- Monitor\n- Disseminator\n\n### Decisional Roles\n- Entrepreneur\n- Negotiator\n\n### Importance\nUnderstanding roles improves leadership effectiveness.",
+          "examples": ["Manager negotiating deals", "Leader motivating team"],
+          "common_mistakes": [
+            "Ignoring communication role",
+            "Over-focusing on authority"
+          ],
+          "qna": [
+            { "q": "Who proposed managerial roles?", "a": "Henry Mintzberg." },
+            { "q": "Types?", "a": "Interpersonal, informational, decisional." },
+            { "q": "Leader role?", "a": "Motivating employees." },
+            { "q": "Negotiator role?", "a": "Handling agreements." },
+            { "q": "Why important?", "a": "Improves effectiveness." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m2",
+      "title": "Evolution of Management Thought",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Classical vs Modern Theories",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Compare management theories",
+            "Understand evolution"
+          ],
+          "content": "## Evolution of Management Thought\nManagement evolved from rigid classical theories to flexible modern approaches.\n\n### Classical\n- Focus on efficiency\n\n### Behavioral\n- Focus on human relations\n\n### Modern\n- Systems and contingency approach\n\n### Importance\nHelps managers adapt to changing environments.",
+          "examples": ["Taylorism vs modern HR practices"],
+          "common_mistakes": [
+            "Ignoring human factors",
+            "Over-relying on rigid rules"
+          ],
+          "qna": [
+            { "q": "What is classical theory?", "a": "Focus on efficiency." },
+            { "q": "Behavioral theory?", "a": "Focus on people." },
+            { "q": "Modern theory?", "a": "Flexible approach." },
+            { "q": "Why evolution?", "a": "Changing business needs." },
+            { "q": "Example?", "a": "Human relations approach." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m3",
+      "title": "Organizational Behavior Concepts",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Individual Behavior",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand personality and perception",
+            "Analyze individual differences"
+          ],
+          "content": "## Individual Behavior\nIndividual behavior is influenced by personality, perception, and attitudes.\n\n### Factors\n- Personality\n- Perception\n- Attitude\n\n### Importance\nHelps managers predict employee behavior.",
+          "examples": ["Different reactions to same situation"],
+          "common_mistakes": [
+            "Assuming uniform behavior",
+            "Ignoring psychological factors"
+          ],
+          "qna": [
+            {
+              "q": "What is individual behavior?",
+              "a": "Behavior of employees."
+            },
+            { "q": "Key factors?", "a": "Personality, perception." },
+            { "q": "Why important?", "a": "Predict actions." },
+            { "q": "Example?", "a": "Different employee reactions." },
+            { "q": "Risk?", "a": "Mismanagement." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m4",
+      "title": "Motivation and Leadership Theories",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Leadership Styles",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand leadership styles",
+            "Apply leadership approaches"
+          ],
+          "content": "## Leadership Styles\nLeadership style influences team performance.\n\n### Types\n- Autocratic\n- Democratic\n- Laissez-faire\n\n### Importance\nDifferent situations require different styles.",
+          "examples": ["Strict manager vs participative leader"],
+          "common_mistakes": [
+            "Using one style everywhere",
+            "Ignoring team needs"
+          ],
+          "qna": [
+            { "q": "What is leadership?", "a": "Influencing people." },
+            { "q": "Types?", "a": "Autocratic, democratic." },
+            { "q": "Autocratic?", "a": "Centralized control." },
+            { "q": "Democratic?", "a": "Participative." },
+            { "q": "Why important?", "a": "Team success." }
+          ]
+        }
+      ]
+    },
+    {
+      "module_id": "m5",
+      "title": "Organizational Culture and Change",
+      "topics": [
+        {
+          "topic_id": "t1",
+          "title": "Culture and Change Integration",
+          "difficulty": "medium",
+          "estimated_time": "20 min",
+          "prerequisites": [],
+          "learning_outcomes": [
+            "Understand culture-change relationship",
+            "Manage transitions"
+          ],
+          "content": "## Culture and Change\nOrganizational culture directly impacts how change is accepted.\n\n### Key Insight\nStrong cultures resist change unless aligned.\n\n### Strategy\n- Align change with values\n- Communicate effectively\n\n### Importance\nEnsures successful transformation.",
+          "examples": ["Digital transformation resistance"],
+          "common_mistakes": ["Ignoring culture", "Forcing change"],
+          "qna": [
+            { "q": "What is culture?", "a": "Shared values." },
+            { "q": "What is change?", "a": "Organizational transformation." },
+            { "q": "Why linked?", "a": "Culture affects acceptance." },
+            { "q": "Example?", "a": "Digital adoption." },
+            { "q": "Risk?", "a": "Resistance." }
+          ]
+        }
+      ]
+    }
+  ]
+}
