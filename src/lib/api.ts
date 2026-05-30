@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 export interface Topic {
   id: number;
   chapter: number;
