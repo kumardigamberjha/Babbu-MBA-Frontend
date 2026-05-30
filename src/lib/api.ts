@@ -49,7 +49,7 @@ export interface AuthResponse {
   user: User;
 }
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://mba.codingindia.co.in/api';
 
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('mbahub_auth_token');
