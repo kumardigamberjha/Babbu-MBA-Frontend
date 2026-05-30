@@ -4,6 +4,7 @@ import { CourseList } from './components/CourseList';
 import { Sidebar } from './components/Sidebar';
 import { TopicView } from './components/TopicView';
 import { AuthModal } from './components/AuthModal';
+import { Chatbot } from './components/Chatbot';
 import { api, Course, Topic, User } from './lib/api';
 import { Loader2 } from 'lucide-react';
 
@@ -324,6 +325,9 @@ export const App: React.FC = () => {
         onClose={() => setIsAuthModalOpen(false)}
         onSuccess={handleLoginSuccess}
       />
+
+      {/* Global MBA Chatbot Widget */}
+      <Chatbot />
     </div>
   );
 };

@@ -210,6 +210,16 @@ export const api = {
       headers: getAuthHeaders(),
     });
     return handleResponse<{ is_completed: boolean; topic_id: number }>(res);
+  },
+
+  // Chat API
+  sendChatMessage: async (messages: {role: string, content: string}[]): Promise<{ response: string }> => {
+    const res = await fetch(`${API_BASE}/chat/`, {
+      method: 'POST',
+      headers: getAuthHeaders(),
+      body: JSON.stringify({ messages }),
+    });
+    return handleResponse<{ response: string }>(res);
   }
 };
 
