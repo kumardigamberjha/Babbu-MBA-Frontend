@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+  
+  --color-primary-50: #f5f3ff;
+  --color-primary-100: #ede9fe;
+  --color-primary-500: #8b5cf6;
+  --color-primary-600: #7c3aed;
+  --color-primary-700: #6d28d9;
+  
+  --color-bg-light: #f8fafc;
+  --color-bg-dark: #0f172a;
+}
+
+/* Custom CSS Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.4);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Glow effect */
+.glow-hover:hover {
+  box-shadow: 0 0 20px 0 rgba(139, 92, 246, 0.15);
+}
+
+/* TinyMCE / Topic Content Styles */
+.topic-content {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.topic-content h1 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  letter-spacing: -0.025em;
+}
+
+.topic-content h2 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  color: inherit;
+}
+
+.topic-content h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+
+.topic-content p {
+  margin-bottom: 1.25rem;
+}
+
+.topic-content strong {
+  font-weight: 600;
+}
+
+.topic-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.topic-content ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.topic-content li {
+  margin-bottom: 0.5rem;
+}
+
+.topic-content blockquote {
+  border-left: 4px solid var(--color-primary-500);
+  padding-left: 1.25rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  background: rgba(139, 92, 246, 0.03);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.dark .topic-content blockquote {
+  background: rgba(139, 92, 246, 0.05);
+}
+
+.topic-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.topic-content th,
+.topic-content td {
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.dark .topic-content th,
+.dark .topic-content td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.topic-content th {
+  background: rgba(139, 92, 246, 0.05);
+  font-weight: 600;
+}
+
+.topic-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.topic-content code {
+  font-family: monospace;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.dark .topic-content code {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.topic-content pre {
+  background: #1e293b;
+  color: #f8fafc;
+  padding: 1.25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.topic-content pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
