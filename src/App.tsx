@@ -5,6 +5,7 @@ import { Sidebar } from './components/Sidebar';
 import { TopicView } from './components/TopicView';
 import { AuthModal } from './components/AuthModal';
 import { Chatbot } from './components/Chatbot';
+import { AdminDashboard } from './components/AdminDashboard';
 import { api, Course, Topic, User } from './lib/api';
 import { Loader2 } from 'lucide-react';
 
@@ -19,6 +20,7 @@ export const App: React.FC = () => {
   // User Auth state
   const [user, setUser] = useState<User | null>(() => api.getCurrentUser());
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [isAdminView, setIsAdminView] = useState(false);
 
   // Content state
   const [courses, setCourses] = useState<Course[]>([]);
@@ -256,6 +258,12 @@ export const App: React.FC = () => {
         onLogout={handleLogout}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
+        isAdminView={isAdminView}
+        onAdminToggle={() => {
+          setIsAdminView(!isAdminView);
+          setActiveCourse(null);
+          setActiveTopic(null);
+        }}
       />
 
       {/* Main Content Area */}
@@ -275,7 +283,9 @@ export const App: React.FC = () => {
 
         {!error && (
           <>
-            {activeCourse ? (
+            {isAdminView ? (
+              <AdminDashboard />
+            ) : activeCourse ? (
               /* Learning Workspace View */
               <div className="flex-1 flex flex-col md:flex-row relative">
                 {/* Course Syllabus Map Sidebar */}

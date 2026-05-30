@@ -43,6 +43,8 @@ export interface User {
   email: string;
   first_name: string;
   last_name: string;
+  is_staff: boolean;
+  is_superuser: boolean;
 }
 
 export interface AuthResponse {
@@ -101,6 +103,32 @@ export const api = {
     return handleResponse<Course>(res);
   },
 
+  createCourse: async (courseData: Partial<Course>): Promise<Course> => {
+    const res = await fetch(`${API_BASE}/courses/`, {
+      method: 'POST',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(courseData),
+    });
+    return handleResponse<Course>(res);
+  },
+
+  updateCourse: async (id: number, courseData: Partial<Course>): Promise<Course> => {
+    const res = await fetch(`${API_BASE}/courses/${id}/`, {
+      method: 'PATCH',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(courseData),
+    });
+    return handleResponse<Course>(res);
+  },
+
+  deleteCourse: async (id: number): Promise<void> => {
+    const res = await fetch(`${API_BASE}/courses/${id}/`, {
+      method: 'DELETE',
+      headers: getAuthHeaders(),
+    });
+    return handleResponse<void>(res);
+  },
+
   // Chapter APIs
   getChapters: async (courseId?: number): Promise<Chapter[]> => {
     const url = courseId ? `${API_BASE}/chapters/?course=${courseId}` : `${API_BASE}/chapters/`;
@@ -108,6 +136,32 @@ export const api = {
       headers: getAuthHeaders(),
     });
     return handleResponse<Chapter[]>(res);
+  },
+
+  createChapter: async (chapterData: Partial<Chapter>): Promise<Chapter> => {
+    const res = await fetch(`${API_BASE}/chapters/`, {
+      method: 'POST',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(chapterData),
+    });
+    return handleResponse<Chapter>(res);
+  },
+
+  updateChapter: async (id: number, chapterData: Partial<Chapter>): Promise<Chapter> => {
+    const res = await fetch(`${API_BASE}/chapters/${id}/`, {
+      method: 'PATCH',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(chapterData),
+    });
+    return handleResponse<Chapter>(res);
+  },
+
+  deleteChapter: async (id: number): Promise<void> => {
+    const res = await fetch(`${API_BASE}/chapters/${id}/`, {
+      method: 'DELETE',
+      headers: getAuthHeaders(),
+    });
+    return handleResponse<void>(res);
   },
 
   // Topic APIs
@@ -124,6 +178,32 @@ export const api = {
       headers: getAuthHeaders(),
     });
     return handleResponse<Topic>(res);
+  },
+
+  createTopic: async (topicData: Partial<Topic>): Promise<Topic> => {
+    const res = await fetch(`${API_BASE}/topics/`, {
+      method: 'POST',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(topicData),
+    });
+    return handleResponse<Topic>(res);
+  },
+
+  updateTopic: async (id: number, topicData: Partial<Topic>): Promise<Topic> => {
+    const res = await fetch(`${API_BASE}/topics/${id}/`, {
+      method: 'PATCH',
+      headers: getAuthHeaders(),
+      body: JSON.stringify(topicData),
+    });
+    return handleResponse<Topic>(res);
+  },
+
+  deleteTopic: async (id: number): Promise<void> => {
+    const res = await fetch(`${API_BASE}/topics/${id}/`, {
+      method: 'DELETE',
+      headers: getAuthHeaders(),
+    });
+    return handleResponse<void>(res);
   },
 
   // Authentication APIs

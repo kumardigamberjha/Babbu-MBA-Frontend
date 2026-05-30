@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Moon, Search, LogOut, User as UserIcon, BookOpen } from 'lucide-react';
+import { Search, LogOut, User as UserIcon, BookOpen, Shield } from 'lucide-react';
 import { User } from '../lib/api';
 
 interface HeaderProps {
@@ -10,6 +10,8 @@ interface HeaderProps {
   onLogout: () => void;
   searchQuery: string;
   setSearchQuery: (query: string) => void;
+  isAdminView?: boolean;
+  onAdminToggle?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -20,6 +22,8 @@ export const Header: React.FC<HeaderProps> = ({
   onLogout,
   searchQuery,
   setSearchQuery,
+  isAdminView = false,
+  onAdminToggle,
 }) => {
   return (
     <header className="glass sticky top-0 z-40 w-full border-b border-slate-200/50 dark:border-slate-800/50 px-6 py-4 flex items-center justify-between transition-colors duration-300">
@@ -56,14 +60,16 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Actions */}
       <div className="flex items-center gap-4">
-        {/* Theme Toggle */}
-        <button
-          onClick={() => setDarkMode(!darkMode)}
-          className="p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors duration-300 text-slate-500 dark:text-slate-400"
-          title="Toggle Theme"
-        >
-          {darkMode ? <Sun className="h-5 w-5 text-amber-400" /> : <Moon className="h-5 w-5 text-indigo-500" />}
-        </button>
+        {user?.is_staff && onAdminToggle && (
+          <button
+            onClick={onAdminToggle}
+            className={`flex items-center gap-2 px-3 py-1.5 rounded-xl text-sm font-semibold transition-colors duration-300 ${isAdminView ? 'bg-primary-600 text-white shadow-md' : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-primary-100 dark:hover:bg-primary-900/40'}`}
+          >
+            <Shield className="w-4 h-4" />
+            {isAdminView ? 'Exit Admin' : 'Admin Panel'}
+          </button>
+        )}
+
 
         {/* Auth / User Control */}
         {user ? (
