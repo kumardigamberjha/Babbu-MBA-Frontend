@@ -11,7 +11,7 @@ import { Loader2 } from 'lucide-react';
 
 export const App: React.FC = () => {
   // Theme state
-  const [darkMode, setDarkMode] = useState(() => {
+  const [darkMode] = useState(() => {
     const saved = localStorage.getItem('mbahub_theme');
     if (saved) return saved === 'dark';
     return window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -251,8 +251,6 @@ export const App: React.FC = () => {
     <div className="min-h-screen bg-bg-light dark:bg-bg-dark text-slate-800 dark:text-slate-200 flex flex-col font-sans transition-colors duration-300">
       {/* Navigation Header */}
       <Header
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
         user={user}
         onLoginClick={() => setIsAuthModalOpen(true)}
         onLogout={handleLogout}

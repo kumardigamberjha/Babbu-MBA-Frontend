@@ -3,8 +3,6 @@ import { Search, LogOut, User as UserIcon, BookOpen, Shield } from 'lucide-react
 import { User } from '../lib/api';
 
 interface HeaderProps {
-  darkMode: boolean;
-  setDarkMode: (dark: boolean) => void;
   user: User | null;
   onLoginClick: () => void;
   onLogout: () => void;
@@ -15,8 +13,6 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  darkMode,
-  setDarkMode,
   user,
   onLoginClick,
   onLogout,
